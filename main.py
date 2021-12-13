@@ -1,8 +1,3 @@
-x = input("Type a number: ")
-y = input("Type another number: ")
+# This program prints Hello, world!
 
-sum = int(x) + int(y)
-
-print("The sum is: ", sum)
-
-
+print('Hello, world!')
