@@ -1,4 +1,4 @@
-FROM python:latest
+FROM linux:latest
 MAINTAINER Ganesh Bachate
 RUN yum install -y python
 COPY main.py ./
