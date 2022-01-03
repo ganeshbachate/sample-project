@@ -1,5 +1,5 @@
-FROM linux:latest
+FROM ubuntu:latest
 MAINTAINER Ganesh Bachate
-RUN yum install -y python
-COPY main.py ./
+RUN apt update
+COPY ./main.py ./
 CMD [ "python", "./main.py"]
