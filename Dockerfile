@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-MAINTAINER Ganesh
+MAINTAINER Ganesha
 RUN apt update
 COPY ./main.py ./
 CMD [ "python", "./main.py"]
