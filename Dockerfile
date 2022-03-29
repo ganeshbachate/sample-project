@@ -3,6 +3,6 @@ WORKDIR /home/ubuntu
 MAINTAINER Ganesh
 RUN apt update
 COPY ./main.py ./
-CMD [ "python3", "./main.py"]
+ENTRYPOINT [ "python3", "./main.py"]
 
 
