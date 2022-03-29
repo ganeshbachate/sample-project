@@ -1,8 +1,8 @@
 FROM ubuntu:latest
-WORKDIR /home/ubuntu
+WORKDIR /home/ubuntu/myfiles
 MAINTAINER Ganesh
 RUN apt update
 COPY ./main.py ./
-ENTRYPOINT [ "python3", "./main.py"]
+CMD [ "python3", "./main.py"]
 
 
