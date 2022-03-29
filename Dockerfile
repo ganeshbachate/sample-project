@@ -3,5 +3,5 @@ MAINTAINER Ganesh
 RUN apt update
 COPY ./main.py ./
 CMD [ "python", "./main.py"]
-TAG ganeshbachate/pythonapp:new
+TAG ganeshbachate/pythonapp:new1
 
