@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 MAINTAINER Ganesha
-RUN apt update
+RUN apt update 
 COPY ./main.py ./
-CMD [ "python", "./main.py"]
+CMD [ "python3", "./main.py"]
 
 
