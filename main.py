@@ -1,11 +1,9 @@
-rows = 9
-# if you want user to enter a number, uncomment the below line
-# rows = int(input('Enter the number of rows'))
-# outer loop
-for i in range(rows):
-    # nested loop
-    for j in range(i):
-        # display number
-        print("*", end='')
+# number of rows
+rows = 5
+for i in range(0, rows):
+    # nested loop for each column
+    for j in range(0, i + 1):
+        # print star
+        print("*", end=' ')
     # new line after each row
-    print(' ')
+    print("\r")
