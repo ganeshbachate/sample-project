@@ -1,10 +1,11 @@
-# This program adds two numbers
-
-num1 = 1.5
-num2 = 6.3
-
-# Add two numbers
-sum = num1 + num2
-
-# Display the sum
-print(sum)
+rows = 9
+# if you want user to enter a number, uncomment the below line
+# rows = int(input('Enter the number of rows'))
+# outer loop
+for i in range(rows):
+    # nested loop
+    for j in range(i):
+        # display number
+        print("*", end='')
+    # new line after each row
+    print(' ')
