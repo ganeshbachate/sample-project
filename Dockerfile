@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:new
 WORKDIR /home/ubuntu/myfiles
 MAINTAINER Ganesh
 RUN apt update
